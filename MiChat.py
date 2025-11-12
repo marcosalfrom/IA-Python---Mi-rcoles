@@ -69,7 +69,7 @@ def main ():
     mensaje = st.chat_input("Tu mensaje:")
 
     if mensaje:
-        actualizar_historial("user", mensaje, "😁")
+        actualizar_historial("user", mensaje, "🙋‍♂️​")
         chat_completo = configurar_modelo(clienteUsuario, modelo, mensaje)
         if chat_completo:
                 with st.chat_message("assistant"):
@@ -87,5 +87,6 @@ if __name__ == "__main__":
 # mensaje = st.chat_input("Escribi tu mensaje:")
 
 # Correr streamlit con la terminal de Python
+
 
 # python -m streamlit run MiChat.py (aca deben ingresar el nombre del archivo)
